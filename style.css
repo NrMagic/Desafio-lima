@@ -11,7 +11,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    z-index: 01;
+    height: 118px;
 
 }.navbar{
 
@@ -19,41 +19,118 @@ body{
     flex-direction: row;
     gap: 30px;
 
-}section{
+}
+.button{
+    color: white;
+    background-color: #28887A; 
+    padding: 16px;
+    border: none;
+}
+main{
     width: 100%;
-
-}.grad1{
-    width: 100%;
+    position: relative;
     height: 1418px;
+
 
 }.backrect{
     height: 50%;
     width:65% ;
+    position: absolute;
     background-color: #FFD476;
     border-top-right-radius: 40%;
     transform: translate(0%, 0%);
+    z-index: 1;
 
 }.marmo1{
     height: 35%;
     width: 60% ;
-    border: .05px solid black;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 35%;
-    transform: translate(70%, -110%);
+    z-index: 2;
+    left: 45%;
+    bottom:57%;
 }.marmo2{
     height: 35%;
     width: 60% ;
+    position: absolute;
     background-color: #E0E3E1;
     border-bottom-left-radius: 35%;
-    transform: translate(75%, -220%);
-}.marmo3{
-    height: 100%;
-    width: 100%;  
-    transform: translate(10%, -70.7%);
-    
+    z-index: 3;
+    left: 47%;
+    bottom: 60%;
 }.titulo{
     width: 55%;
     font-size: 90px;
-    transform: translate(17%, -1480%);
+    font-weight: 100;
+    z-index: 4;
+    top: 0%;
+    left: 14%;
+    position: absolute;
+}
+.text{
+    width: 28%;
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    z-index: 5;
+}
+.linevt{
+    border-left: 1px solid black;
+    height: 8%;
+    top: 4%;
+    left: 8%;
+    position: absolute;
+    z-index: 6;
+}
+.linhavertical{
+    border-left: 1px solid black;
+    height: 1418px;
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    z-index: 7;
+}
+.linhaopaca{
+    border-left: 1px solid rgba(0, 0, 0, 0.22);
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    top: 0%;
+    left: 31%;
+    z-index: 8;    
+}
+.button-explore{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 9;
+    
+}.button-explore button{
+    height: 45px;
+    width: 130px;
+    background-color: #28887A;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 
+}.button-explore p{
+    
+    font-size: 30px;
 
+}
+.element4{
+
+    background-color: #E0E3E1 ;
+    border-radius: 15px;
+    height: 270px;
+    width: 10%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    z-index: 10;
 }
