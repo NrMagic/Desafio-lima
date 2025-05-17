@@ -33,7 +33,7 @@ main{
 
 
 }.backrect{
-    height: 50%;
+    height: 45%;
     width:65% ;
     position: absolute;
     background-color: #FFD476;
@@ -126,11 +126,26 @@ main{
 .element4{
 
     background-color: #E0E3E1 ;
-    border-radius: 15px;
-    height: 270px;
-    width: 10%;
+    width: 17%;
+    border-top-left-radius: 120px;
+    border-top-right-radius:120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    height: 416px;
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 14%;
+    z-index: 10;
+}
+.element5{
+    
+    background-color: #E0E3E1 ;
+    width: 17%;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    height: 316px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
     z-index: 10;
 }
