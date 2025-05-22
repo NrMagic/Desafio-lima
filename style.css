@@ -37,7 +37,7 @@ main{
     width:65% ;
     position: absolute;
     background-color: #FFD476;
-    border-top-right-radius: 40%;
+    border-top-right-radius: 300px;
     transform: translate(0%, 0%);
     z-index: 1;
 
@@ -46,16 +46,16 @@ main{
     width: 60% ;
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    border-bottom-left-radius: 35%;
+    border-bottom-left-radius: 300px;
     z-index: 2;
     left: 45%;
-    bottom:57%;
+    bottom:58%;
 }.marmo2{
     height: 35%;
     width: 60% ;
     position: absolute;
     background-color: #E0E3E1;
-    border-bottom-left-radius: 35%;
+    border-bottom-left-radius: 300px;
     z-index: 3;
     left: 47%;
     bottom: 60%;
@@ -148,4 +148,116 @@ main{
     top: 45%;
     left: 35%;
     z-index: 10;
+}
+.years{
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 65%;
+    text-align: center;
+
+}.years h1{
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: none;
+
+}
+.years p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 50;
+    text-align: center;
+}
+.projets{
+    color: black;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 80%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+
+}
+.projets h1{
+
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.projets p{
+
+    margin: 0;
+    font-size: 30px;
+    font-weight: 50;
+    text-align: center;
+}
+.skrolldonw{
+
+    border: 1px solid black;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 70%;
+    left: 9.5%;
+}
+.skrolldowncolor {
+
+    position: absolute;
+    background-color: #28887A;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    left: 25%;
+    top: 35%;
+    width: 50px;
+    height: 70px;
+
+}
+.skrolldonw .textskroll1{
+    margin: 0;
+    background-color: white;
+    color: black;
+    position: absolute;
+    rotate: 270deg;
+    right: -25%;
+    bottom: 45%;
+    padding: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skrolldonw .textskroll2{
+    margin: 0;
+    background-color: white;
+    color: black;
+    position: absolute;
+    rotate: 90deg;
+    left: -25%;
+    bottom: 43%;
+    padding: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}.skrolldonw .textskroll3{
+    margin: 0;
+    background-color: white;
+    color: black;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: -25%;
+    bottom: 43%;
+    padding: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
